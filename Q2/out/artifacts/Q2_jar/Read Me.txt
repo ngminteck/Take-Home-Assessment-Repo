@@ -1,0 +1,7 @@
+To run the jar file
+
+1.Open command prompt.
+2. Cd to the jar directory
+3. Enter "java -jar Q2.jar" 
+
+*Command prompt may not recongise " symbol and show ? instead.
