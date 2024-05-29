@@ -242,7 +242,7 @@ class MLP:
 
 
 test = MLP()
-status1 = test.AddDataFrameFromOnlineDBFile("https://techassessment.blob.core.windows.net/aiap16-assessment-data/lung_cancer.db",'''SELECT * FROM lung_cancer''')
+status1 = test.AddDataFrameFromOnlineDBFile(".db",'''SELECT * FROM lung_cancer''')
 if status1 == True:
 
     status2 = test.PreProcessData()
